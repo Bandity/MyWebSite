@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    background-color: rgba(48, 48, 48, 0.9);
+    p {
+        flex: 8;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        transition: color 0.3s ease-in-out;
+    }
+    p:hover{
+        color: red;
+    }
+
+}
+p :hover {
+    color: red;
+}
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
