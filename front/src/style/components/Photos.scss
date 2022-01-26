@@ -1,0 +1,16 @@
+.content-wrapper{
+    display: flex;
+    color: rgb(100, 100, 100);
+    flex: 1;
+    flex-grow: 8;
+}
+.profile-container{
+    display: flex;
+    img {
+        max-width:200px;
+        border-radius: 10px;
+    }
+    flex-grow: 8;
+    flex: 1;
+    flex-direction: column;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import {Home} from './pages/Home'
 import {Portfolio} from './pages/Portfolio'
+
 import "./style/App.scss"
 
 function App() {
@@ -13,11 +14,11 @@ function App() {
 	*/
 
 	return (
-		<div className="App">
+		<div className="App">	
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/portfolio" element={<Portfolio/>}/>
+					<Route path="/portfolio" element={<Portfolio/>} />
 				</Routes>
 			</BrowserRouter>
 		</div>

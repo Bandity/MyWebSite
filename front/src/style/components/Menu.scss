@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    background-color: rgba(48, 48, 48, 0.9);
+        flex:1;
+        flex-grow: 8;
+
+
+
+}
+
+.image-container{
+    display: flex;
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-grow: 8;
+        display: flex;
+        max-width: 20px;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    p {
+        flex:2;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        transition: color 0.3s ease-in-out;
+    }
+
+
+}
+.image-container:hover{
+    opacity:0.5 ;
+    color:red;
+}
