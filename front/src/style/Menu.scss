@@ -1,6 +1,8 @@
 .container {
     display: flex;
     background-color: rgba(48, 48, 48, 0.9);
+
+    
     p {
         flex: 8;
         color: #fff;
@@ -16,7 +18,3 @@
 
 }
 
-body {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
